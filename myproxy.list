@@ -2,6 +2,9 @@
 # AUTHOR: wolfydw
 # REPO: https://github.com/wolfydw/
 
+# 分流规则
+DOMAIN-SUFFIX,vercel.app
+
 # emby分组
 DOMAIN,emby.aca.best
 DOMAIN,porn.aca.best
