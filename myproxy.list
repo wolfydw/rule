@@ -14,5 +14,8 @@ DOMAIN-SUFFIX,pilipiliultra.com
 DOMAIN-SUFFIX,mcjoker.xyz
 DOMAIN-SUFFIX,otv.icu
 
+# snap游戏
+DOMAIN-SUFFIX,snapgametech.com
+
 # 其他需分流
 DOMAIN-SUFFIX,steamcommunity.com
