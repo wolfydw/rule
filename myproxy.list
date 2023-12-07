@@ -5,6 +5,9 @@
 # 分流规则
 DOMAIN-SUFFIX,vercel.app
 
+# 抖音企业号
+DOMAIN-SUFFIX,bytegoofy.com
+
 # emby分组
 DOMAIN,emby.aca.best
 DOMAIN,porn.aca.best
