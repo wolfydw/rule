@@ -1,7 +1,13 @@
 # NAME: 自用需直连
 # AUTHOR: wolfydw
 # REPO: https://github.com/wolfydw/
+
+# 个人网站
 DOMAIN-SUFFIX,9227371.xyz
 DOMAIN-SUFFIX,xinshikong.org
 
+# stun服务，为了snapdrop能正常使用
 DOMAIN-KEYWORD,stun
+
+# 抖音企业号
+DOMAIN-SUFFIX,bytegoofy.com
