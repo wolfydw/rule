@@ -6,8 +6,7 @@
 DOMAIN-SUFFIX,vercel.app
 
 # emby分组
-DOMAIN,emby.aca.best
-DOMAIN,porn.aca.best
+DOMAIN-SUFFIX,aca.best
 DOMAIN-SUFFIX,123456.al
 DOMAIN-SUFFIX,misakaf.org
 DOMAIN,push-kr.cfprefer3.xyz
