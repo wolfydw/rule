@@ -24,6 +24,7 @@ DOMAIN-SUFFIX,marvelsnap.com
 # AI相关
 DOMAIN-SUFFIX,devv.ai
 DOMAIN-SUFFIX,phind.com
+DOMAIN-SUFFIX,poe.com
 
 # 其他需分流
 DOMAIN-SUFFIX,steamcommunity.com
