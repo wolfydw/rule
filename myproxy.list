@@ -4,6 +4,7 @@
 
 # 分流规则
 DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,nodeseek.com
 
 # emby分组
 DOMAIN-SUFFIX,aca.best
