@@ -5,6 +5,11 @@
 # 分流规则
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,cobaltstrike.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,moodys.com
+DOMAIN-SUFFIX,nbyy.cc
 
 # emby分组
 DOMAIN-SUFFIX,aca.best
@@ -26,9 +31,3 @@ DOMAIN-SUFFIX,marvelsnap.com
 DOMAIN-SUFFIX,devv.ai
 DOMAIN-SUFFIX,phind.com
 DOMAIN-SUFFIX,poe.com
-
-# 其他需分流
-DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,moodys.com
-DOMAIN-SUFFIX,nbyy.cc
