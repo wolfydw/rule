@@ -27,7 +27,5 @@ payload:
   - DOMAIN-SUFFIX,bytegsdk.com
   - DOMAIN-SUFFIX,marvelsnap.com
 # AI相关
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,ai
   - DOMAIN-SUFFIX,phind.com
   - DOMAIN-SUFFIX,poe.com
