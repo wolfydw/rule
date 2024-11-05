@@ -2,8 +2,7 @@ payload:
 # NAME: 自用需分流
 # AUTHOR: wolfydw
 # REPO: https://github.com/wolfydw/
-# https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/myproxy.list
-  - 
+# https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/clash/myproxy.txt
 # 分流规则
   - DOMAIN-SUFFIX,vercel.app
   - DOMAIN-SUFFIX,nodeseek.com
@@ -12,10 +11,8 @@ payload:
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,moodys.com
   - DOMAIN-SUFFIX,nbyy.cc
-  - 
 # apple id验证
   - DOMAIN-SUFFIX,identity.ess.apple.com
-  - 
 # emby分组
   - DOMAIN-SUFFIX,aca.best
   - DOMAIN-SUFFIX,123456.al
@@ -23,15 +20,12 @@ payload:
   - DOMAIN,push-kr.cfprefer3.xyz
   - DOMAIN-SUFFIX,pilipiliultra.top
   - DOMAIN-SUFFIX,pilipiliultra.com
-  - 
   - DOMAIN-SUFFIX,mcjoker.xyz
   - DOMAIN-SUFFIX,otv.icu
-  - 
 # snap游戏
   - DOMAIN-SUFFIX,snapgametech.com
   - DOMAIN-SUFFIX,bytegsdk.com
   - DOMAIN-SUFFIX,marvelsnap.com
-  - 
 # AI相关
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,ai

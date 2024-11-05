@@ -2,15 +2,12 @@ payload:
 # NAME: 自用需直连
 # AUTHOR: wolfydw
 # REPO: https://github.com/wolfydw/
-# https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/mydirect.list
-  - 
+# https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/clash/mydirect.txt
 # 个人网站
   - DOMAIN-SUFFIX,9227371.xyz
   - DOMAIN-SUFFIX,xinshikong.org
-  - 
 # stun服务，为了snapdrop能正常使用
   - DOMAIN-KEYWORD,stun
-  - 
 # 抖音企业号
   - DOMAIN-SUFFIX,bytegoofy.com
   - DOMAIN-SUFFIX,zijieapi.com
