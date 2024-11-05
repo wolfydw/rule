@@ -4,8 +4,18 @@
 # https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/mydirect.list
 
 # 个人网站
+DOMAIN-SUFFIX,ydw.cool
 DOMAIN-SUFFIX,9227371.xyz
 DOMAIN-SUFFIX,xinshikong.org
+
+# 第三方gpt
+DOMAIN-KEYWORD,aizex
+
+# clash web面板
+DOMAIN-SUFFIX,clash.razord.top
+
+# 喵云互联
+DOMAIN-SUFFIX,mlink.top
 
 # stun服务，为了snapdrop能正常使用
 DOMAIN-KEYWORD,stun
