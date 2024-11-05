@@ -31,6 +31,10 @@ jobs:
         sed -i 's/^  - # AUTHOR:/  # AUTHOR:/' clash/mydirect.txt
         sed -i 's/^  - # REPO:/  # REPO:/' clash/mydirect.txt
         sed -i 's/^  - # https/  # https/' clash/mydirect.txt
+        # 替换 https 链接为新路径
+        sed -i 's|https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/mydirect.list|https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/clash/mydirect.txt|' clash/mydirect.txt
+        # 移除空行前的 "- "
+        sed -i '/^  - $/d' clash/mydirect.txt
 
     - name: Format and update clash myproxy.txt
       run: |
@@ -40,6 +44,10 @@ jobs:
         sed -i 's/^  - # AUTHOR:/  # AUTHOR:/' clash/myproxy.txt
         sed -i 's/^  - # REPO:/  # REPO:/' clash/myproxy.txt
         sed -i 's/^  - # https/  # https/' clash/myproxy.txt
+        # 替换 https 链接为新路径
+        sed -i 's|https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/myproxy.list|https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/clash/myproxy.txt|' clash/myproxy.txt
+        # 移除空行前的 "- "
+        sed -i '/^  - $/d' clash/myproxy.txt
 
     - name: Commit changes
       run: |
