@@ -1,0 +1,13 @@
+payload:
+# NAME: emby专用分流
+# AUTHOR: wolfydw
+# REPO: https://github.com/wolfydw/
+# https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/clash/emby.txt
+  - DOMAIN-SUFFIX,aca.best
+  - DOMAIN-SUFFIX,123456.al
+  - DOMAIN-SUFFIX,misakaf.org
+  - DOMAIN,push-kr.cfprefer3.xyz
+  - DOMAIN-SUFFIX,pilipiliultra.top
+  - DOMAIN-SUFFIX,pilipiliultra.com
+  - DOMAIN-SUFFIX,mcjoker.xyz
+  - DOMAIN-SUFFIX,otv.icu
