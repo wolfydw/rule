@@ -1,0 +1,39 @@
+name: Update Rule with Format
+
+on:
+  push:
+    branches:
+      - main  # 可以根据你的分支名称进行调整
+  workflow_dispatch: # 手动触发
+
+jobs:
+  update-rule:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Fetch mydirect.list content
+      run: |
+        curl -o mydirect.list https://raw.githubusercontent.com/wolfydw/rule/main/mydirect.list
+
+    - name: Format content and update clash mydirect.txt
+      run: |
+        mkdir -p clash
+        echo "payload:" > clash/mydirect.txt
+        sed 's/^/  - /' mydirect.list | sed 's/^  - #/#/' >> clash/mydirect.txt
+        # 替换作者信息中的 "-" 符号
+        sed -i 's/^  - # AUTHOR:/  # AUTHOR:/' clash/mydirect.txt
+        sed -i 's/^  - # REPO:/  # REPO:/' clash/mydirect.txt
+        sed -i 's/^  - # https/  # https/' clash/mydirect.txt
+
+    - name: Commit changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add clash/mydirect.txt
+        git commit -m "Update clash/mydirect.txt from mydirect.list with formatting"
+        git push
+      env:
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
