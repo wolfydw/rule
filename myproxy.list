@@ -1,6 +1,7 @@
 # NAME: 自用需分流
 # AUTHOR: wolfydw
 # REPO: https://github.com/wolfydw/
+# https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/myproxy.list
 
 # 分流规则
 DOMAIN-SUFFIX,vercel.app
