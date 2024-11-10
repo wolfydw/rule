@@ -20,6 +20,9 @@ DOMAIN-SUFFIX,snapgametech.com
 DOMAIN-SUFFIX,bytegsdk.com
 DOMAIN-SUFFIX,marvelsnap.com
 
+# 第三方gpt
+DOMAIN-KEYWORD,aizex
+
 # AI相关
 DOMAIN-SUFFIX,phind.com
 DOMAIN-SUFFIX,poe.com
