@@ -3,6 +3,8 @@ payload:
 # AUTHOR: wolfydw
 # REPO: https://github.com/wolfydw/
 # https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/clash/myproxy.txt
+# 订阅链接
+  - DOMAIN-SUFFIX,acaisbest.com
 # 分流规则
   - DOMAIN-SUFFIX,vercel.app
   - DOMAIN-SUFFIX,nodeseek.com
