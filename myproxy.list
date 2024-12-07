@@ -3,7 +3,7 @@
 # REPO: https://github.com/wolfydw/
 # https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/myproxy.list
 
-# 订阅链接
+# ACA订阅链接
 DOMAIN-SUFFIX,acaisbest.com
 
 # 公共库
@@ -17,6 +17,9 @@ DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,moodys.com
 DOMAIN-SUFFIX,nbyy.cc
+
+# pikpak
+DOMAIN-SUFFIX,mypikpak.com
 
 # apple id验证
 DOMAIN-SUFFIX,identity.ess.apple.com
