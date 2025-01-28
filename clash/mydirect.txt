@@ -16,3 +16,5 @@ payload:
 # 抖音企业号
   - DOMAIN-SUFFIX,bytegoofy.com
   - DOMAIN-SUFFIX,zijieapi.com
+# facmate的直连emby
+  - DOMAIN-SUFFIX,makima.online
