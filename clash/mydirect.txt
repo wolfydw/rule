@@ -19,4 +19,4 @@ payload:
 # facmate的直连emby
   - DOMAIN-SUFFIX,makima.online
 # infiniCloud 的 webdav 地址
-  - DOMAIN-SUFFIX,teracloud.jp/
+  - DOMAIN-SUFFIX,teracloud.jp
