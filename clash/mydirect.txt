@@ -20,3 +20,5 @@ payload:
   - DOMAIN-SUFFIX,makima.online
 # infiniCloud 的 webdav 地址
   - DOMAIN-SUFFIX,teracloud.jp
+# 自有 VPS 的 IP 段
+  - IP-CIDR,8.209.248.0/24
