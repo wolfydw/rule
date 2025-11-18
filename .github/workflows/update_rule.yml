@@ -26,6 +26,10 @@ jobs:
       run: |
         curl -o emby.list https://raw.githubusercontent.com/wolfydw/rule/main/emby.list
 
+    - name: Fetch AppleIntelligence.list content
+      run: |
+        curl -o AppleIntelligence.list https://raw.githubusercontent.com/wolfydw/rule/main/AppleIntelligence.list
+
     - name: Format and update clash mydirect.txt
       run: |
         mkdir -p clash
@@ -66,12 +70,33 @@ jobs:
         # 移除空行前的 "- "
         sed -i '/^  - $/d' clash/emby.txt
 
+    - name: Format and update clash AppleIntelligence.txt
+      run: |
+        echo "payload:" > clash/AppleIntelligence.txt
+        sed 's/^/  - /' AppleIntelligence.list | sed 's/^  - #/#/' >> clash/AppleIntelligence.txt
+        # 替换作者信息中的 "-" 符号
+        sed -i 's/^  - # AUTHOR:/  # AUTHOR:/' clash/AppleIntelligence.txt
+        sed -i 's/^  - # REPO:/  # REPO:/' clash/AppleIntelligence.txt
+        sed -i 's/^  - # https/  # https/' clash/AppleIntelligence.txt
+        # 替换 https 链接为新路径
+        sed -i 's|https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/AppleIntelligence.list|https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/clash/AppleIntelligence.txt|' clash/AppleIntelligence.txt
+        # 移除空行前的 "- "
+        sed -i '/^  - $/d' clash/AppleIntelligence.txt
+
     - name: Commit changes
       run: |
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git add clash/mydirect.txt clash/myproxy.txt clash/emby.txt
-        git commit -m "Update clash/mydirect.txt, clash/myproxy.txt, and clash/emby.txt from source lists with formatting"
+
+        git add clash/mydirect.txt clash/myproxy.txt clash/emby.txt clash/AppleIntelligence.txt
+
+        # 如果没有改动，避免 git commit 报错退出
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+          exit 0
+        fi
+
+        git commit -m "Update clash rules from source lists with formatting"
         git push
       env:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
