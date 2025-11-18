@@ -2,6 +2,7 @@
 # AUTHOR: wolfydw
 # REPO: https://github.com/wolfydw/
 # https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/AppleIntelligence.list
+# 域名来源：https://support.apple.com/zh-cn/101555
 
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN,guzzoni.apple.com
