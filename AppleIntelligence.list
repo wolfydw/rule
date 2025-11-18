@@ -1,0 +1,11 @@
+# NAME: Apple Intelligence专用分流
+# AUTHOR: wolfydw
+# REPO: https://github.com/wolfydw/
+# https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/AppleIntelligence.list
+
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,guzzoni.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.apple.com
