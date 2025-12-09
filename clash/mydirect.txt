@@ -22,3 +22,4 @@ payload:
   - DOMAIN-SUFFIX,teracloud.jp
 # 自有 VPS 的 IP 段
   - IP-CIDR,8.209.248.0/24
+  - IP-CIDR,154.21.203.0/24
