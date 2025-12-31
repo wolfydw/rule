@@ -12,3 +12,4 @@ payload:
   - DOMAIN-SUFFIX,mcjoker.xyz
   - DOMAIN-SUFFIX,otv.icu
   - DOMAIN-SUFFIX,313445.xyz
+  - DOMAIN-SUFFIX,uhdnow.com
