@@ -6,9 +6,6 @@
 # ACA订阅链接
 DOMAIN-SUFFIX,acaisbest.com
 
-# 公共库
-DOMAIN-SUFFIX,googleapis.com
-
 # 分流规则
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,nodeseek.com
