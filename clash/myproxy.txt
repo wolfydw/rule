@@ -26,3 +26,4 @@ payload:
 # AI相关
   - DOMAIN-SUFFIX,phind.com
   - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,notebooklm.google
