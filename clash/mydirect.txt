@@ -3,6 +3,9 @@ payload:
 # AUTHOR: wolfydw
 # REPO: https://github.com/wolfydw/
 # https://cdn.jsdelivr.net/gh/wolfydw/rule@refs/heads/main/clash/mydirect.txt
+# AI中转
+  - DOMAIN-SUFFIX,luciferai.cc
+  - DOMAIN-SUFFIX,ojbkapi.com
 # 个人网站
   - DOMAIN-SUFFIX,ydw.cool
   - DOMAIN-SUFFIX,9227371.xyz
