@@ -6,6 +6,9 @@
 # ACA订阅链接
 DOMAIN-SUFFIX,acaisbest.com
 
+# 中转站
+DOMAIN-SUFFIX,luciferai.cc
+
 # 分流规则
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,nodeseek.com
